@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sirius/JavaScript - 06.3: Fetch Post</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Sirius Hub</h1>
+        <h2>Exercice <span id="JS">Javascript #06-3</span></h2>
+      </header>
+      <div class="content">
+        <section class="explain">
+          <p>
+            Utilise la méthode <strong>fetch()</strong> pour contacter l'API
+            présente dans <strong>script.js</strong>
+          </p>
+          <p>
+            Au clic sur le bouton, retire l'id que tu auras renseigné à l'aide
+            de
+            <strong>fetch DELETE</strong>
+            Ensuite, à l'aide de
+            <strong>fetch GET</strong>, affiche le JSON avec les modifications
+            (qui se trouve à la même adresse)
+          </p>
+        </section>
+        <section class="material">
+          <form action="#">
+            <label for="">Id à supprimer</label>
+            <input id="index" type="text" />
+            <div class="actions">
+              <button type="button" id="run">Lancer le script</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
