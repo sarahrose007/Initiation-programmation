@@ -23,9 +23,14 @@
             présente dans <strong>script.js</strong>
           </p>
           <p>
-            Au clic sur le bouton, retire l'id que tu auras renseigné à l'aide
+            Au clic sur le bouton, modifie l'id que tu auras renseigné à l'aide
             de
-            <strong>fetch DELETE</strong>
+            <ul>
+              <li><strong>fetch DELETE</strong></li>
+              <li><strong>fetch PUT</strong></li>
+              <li><strong>fetch PATCH</strong></li>
+            </ul>
+            
             Ensuite, à l'aide de
             <strong>fetch GET</strong>, affiche le JSON avec les modifications
             (qui se trouve à la même adresse)
@@ -33,7 +38,7 @@
         </section>
         <section class="material">
           <form action="#">
-            <label for="">Id à supprimer</label>
+            <label for="">Id</label>
             <input id="index" type="text" />
             <div class="actions">
               <button type="button" id="run">Lancer le script</button>
