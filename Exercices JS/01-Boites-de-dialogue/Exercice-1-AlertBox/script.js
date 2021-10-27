@@ -1,1 +1,1 @@
-
+window.alert("salut word");
